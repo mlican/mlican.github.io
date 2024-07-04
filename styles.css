@@ -219,7 +219,9 @@ nav a {
     .features img {
         width: 80%;
         height: auto;
-        margin-bottom: 10px;
+        margin: 0 auto 10px auto; /* 上下左右的 margin，auto 可以将元素居中 */
+        display: block; /* 确保 img 是 block 元素，才能正确应用 margin auto */
+        /* margin-bottom: 10px; */
     }
 
     .app-download {
